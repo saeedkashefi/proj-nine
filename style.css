@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(9, 4, 39, 0.74);
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+    gap:35px ;
+}
+
+.butt{
+    padding: 10px 40px ;
+    border-radius: 10px;
+    border: none;
+    color:black;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.butt:hover{
+    color: crimson;
+}
+
+.spans{
+    color: rgb(70, 10, 10);
+    font-size: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    
+}
+
+hr{
+    width: 70%;
+    height: 0.5px;
+    background-color: darkgoldenrod;
+}
+
+.ps{
+    color:rgb(49, 9, 9) ;
+    font-size: 35px;
+}
+
+
+
+
+
